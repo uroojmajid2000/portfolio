@@ -1,0 +1,181 @@
+@charset "utf-8";
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	overflow-x: hidden;
+}
+a{
+	color: black;
+}
+.my-navbar{
+	box-shadow: 1px 0px 10px #D94412;
+	background-color: white;
+	
+}
+.my-nav-link li a{
+	margin-right: 30px;
+	font-weight: bold;
+	transition: ease .3s;
+	width: 90px;
+	margin: auto;
+
+}
+
+.my-nav-link li a:hover{
+	color: #D94412;
+	border-bottom: 1px solid #D94412;
+	font-size: 10px;
+}
+
+
+.my-header h3{
+	margin-top: 150px;
+	font-weight: 100;
+	color: #D94412;
+}
+
+.my-header h1{
+	font-weight: bolder;
+	font-size: 60px;
+}
+
+.my-header h5{
+	line-height: 30px;
+	margin-bottom: 50px;
+}
+
+.my-header button{
+	padding: 8px 40px 8px 40px;
+	background: none;
+	border: 3px solid #D94412;
+	
+	color: #D94412;
+	font-weight: bold;
+	border-left: 10px solid #D94412;
+	transition: ease .6s;
+}
+
+.my-header button:hover{
+	background-color: #D94412;
+	color: white;
+}
+
+.my-header img{
+	margin-top:70px;
+}
+
+
+.my-about{
+	margin-top: 200px;
+	margin-bottom: 200px;
+	
+}
+
+.my-about h1{
+	font-weight: bolder;
+	font-size: 60px;
+	margin-top: 30px;
+}
+
+.my-about h5{
+	line-height: 30px;
+}
+
+.my-about h5 span {
+	color: #D94412;
+}
+
+.my-about button{
+	padding: 8px 40px 8px 40px;
+	background: none;
+	border: 3px solid #D94412;
+	margin-top: 20px;
+	color: #D94412;
+	font-weight: bold;
+	border-left: 10px solid #D94412;
+	transition: ease .6s;
+}
+
+.my-about button:hover{
+	
+	background-color: #D94412;
+	color: white;
+}
+
+
+
+.my-skills h1{
+	font-weight: bold;
+}
+
+.my-skills h1 span {
+	color: #D94412;
+	border-bottom:3px solid #D94412;
+}
+
+
+.my-services{
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+.my-services h1{
+	font-weight: bold;
+}
+
+.my-services h1 span {
+	color: #D94412;
+	border-bottom:3px solid #D94412;
+}
+
+.my-services-card{
+	transition: ease .5s;
+	margin-bottom: 40px;
+}
+.my-services-card:hover{
+	box-shadow:5px 5px 3px grey;
+}
+.my-footer{
+	background-color: black;
+	height:auto;
+	text-align: center;
+}
+
+.my-footer span{
+	color:#D94412;
+	margin-top: 30px;
+	padding-right: 20px;
+	
+}
+
+.my-footer p{
+	margin-top: 30px;
+	color: grey;
+}
+	
+
+.webs {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.webs a {
+	flex: 1;
+	margin: 1rem;
+	flex-basis: 20rem;
+}
+
+.webs a img {
+	width: 100%;
+}
+.heading h1{
+	color: #D94412;
+	text-align: center;
+	margin-bottom: 2rem;
+
+}
+.heading span{
+	color: black;
+}
